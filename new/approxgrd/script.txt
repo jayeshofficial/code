@@ -1,14 +1,14 @@
 Compute Exact Number of Feature Combinations
 
-python3 /home/jayeshedu/Downloads/new/approxgrd/approxcovgrd.py --twise 2 /home/jayeshedu/Downloads/new/approxgrd/input.txt
+    --twise 2 input.txt
 
 Compute Approximate Number of Feature Combinations
 
-python3 /home/jayeshedu/Downloads/new/approxgrd/approxcovgrd.py --approximate --twise 2 /home/jayeshedu/Downloads/new/approxgrd/input.txt
+    --approximate --twise 2 input.txt
 
 Compute Approximate Number with Custom Parameters
 
-python3 /home/jayeshedu/Downloads/new/approxgrd/approxcovgrd.py --approximate --epsilon 0.1 --delta 0.1 --seed 1 --twise 2 /home/jayeshedu/Downloads/new/approxgrd/input.txt
+    --approximate --epsilon 0.1 --delta 0.1 --seed 1 --twise 2 input.txt
 
 
 
