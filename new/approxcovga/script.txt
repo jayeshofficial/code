@@ -1,0 +1,13 @@
+Compute Exact Number of Feature Combinations
+
+python3 /home/jayeshedu/Downloads/new/approxcovga/approxcovga.py --twise 2 /home/jayeshedu/Downloads/new/approxcovga/input.txt
+
+
+Compute Approximate Number of Feature Combinations
+
+python3 /home/jayeshedu/Downloads/new/approxcovga/approxcovga.py --approximate --twise 2 /home/jayeshedu/Downloads/new/approxcovga/input.txt
+
+
+Compute with Custom parameters with Genetics Algorithm
+
+python3 /home/jayeshedu/Downloads/new/approxcovga/approxcovga.py --twise 2 --approximate --pop_size 50 --generations 100 /home/jayeshedu/Downloads/new/approxcovga/input.txt
