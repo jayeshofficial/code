@@ -1,13 +1,13 @@
 Compute Exact Number of Feature Combinations
 
-python3 /home/jayeshedu/Downloads/approxcov-1.0/scripts/approxcov/approxcov.py --twise 2 /home/jayeshedu/Downloads/approxcov-1.0/scripts/approxcov/input.txt
+	--twise 2 input.txt
 
 Compute Approximate Number of Feature Combinations
 
-python3 /home/jayeshedu/Downloads/approxcov-1.0/scripts/approxcov/approxcov.py --approximate --twise 2 /home/jayeshedu/Downloads/approxcov-1.0/scripts/approxcov/input.txt
+	--approximate --twise 2 input.txt
 
 Compute Approximate Number with Custom Parameters
 
-python3 /home/jayeshedu/Downloads/approxcov-1.0/scripts/approxcov/approxcov.py --approximate --epsilon 0.1 --delta 0.1 --seed 1 --twise 2 /home/jayeshedu/Downloads/approxcov-1.0/scripts/approxcov/input.txt
+	--approximate --epsilon 0.1 --delta 0.1 --seed 1 --twise 2 input.txt
 
 
